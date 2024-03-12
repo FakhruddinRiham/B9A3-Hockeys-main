@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.3/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="mx-80">
+    <nav class="sm:flex">
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <li><a>Item 1</a></li>
+                  <li>
+                    <a>Parent</a>
+                    <ul class="p-2">
+                      <li><a>Submenu 1</a></li>
+                      <li><a>Submenu 2</a></li>
+                    </ul>
+                  </li>
+                  <li><a>Item 3</a></li>
+                </ul>
+              </div>
+              <a class="text-2xl font-semibold">Hockey <span class="text-orange-600">'</span>s</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a>Item 1</a></li>
+                <li>
+                  <details>
+                    <summary>Parent</summary>
+                    <ul class="p-2">
+                      <li><a>Submenu 1</a></li>
+                      <li><a>Submenu 2</a></li>
+                    </ul>
+                  </details>
+                </li>
+                <li><a>Item 3</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+              <a class= "btn">Button</a>
+            </div>
+          </div>
+    </nav>
+   <header>
+    <div>
+      <img src="Images/1.png" alt="">
+    </div>
+   </header>
+
+    <div class="text-center sm:text-center">
+      <h1 class="text-3xl font-bold">Professional Hockeys Club</h1>
+      <small class="py-10">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </small>
+    </div>
+
+    <section class="flex m-7 text-center">
+      <div>
+        <h3 class="text-xl font-bold ">Prayer Facility</h3>
+        <small>Amet consectetur. Condimentum dignissim adipiscing.</small>
+      </div>
+
+      <div>
+        <h3 class="text-xl font-bold">Experienced Coach</h3>
+        <small>Amet consectetur. Condimentum dignissim adipiscing.</small>
+      </div>
+      <div>
+        <h3 class="text-xl font-bold" >Senior Player</h3>
+        <small>Amet consectetur. Condimentum dignissim adipiscing.</small>
+      </div>
+      <div>
+        <h3 class="text-xl font-bold ">Training Ground</h3>
+        <small>Amet consectetur. Condimentum dignissim adipiscing.</small>
+      </div>
+    </section>
+
+    <section class="program-section justify-items-center text-center mx-40">
+      <h1 class="text-3xl font-bold">Program Sections</h1>
+      <small>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</small>
+    </section>
+
+    <div class="flex space-x-5"> 
+      <div class="bg-blend-overlay">
+        <img src="Images/2.png" alt="">
+        <h4 class="text-2xl font-semibold">Junior Program</h4>
+        <small>Astronomers estimate that there are billions of worlds beyond our solar system. Astronomers estimate that there is roughly one exoplanet per star in our galaxy. Of course, some stars have many planets our own Sun has eight. And some stars have none.</small>
+        <div><button class="bg-red-600 text-white font-semibold p-2 rounded my-3">Register Now</button></div>
+
+      </div>
+      <div class="bg-blend-overlay ">
+        <img src="Images/2.png" alt="">
+        <h4 class="text-2xl font-semibold">Junior Program</h4>
+        <small>Astronomers estimate that there are billions of worlds beyond our solar system. Astronomers estimate that there is roughly one exoplanet per star in our galaxy. Of course, some stars have many planets our own Sun has eight. And some stars have none.</small>
+        <div><button class="bg-red-600 text-white font-semibold p-2 rounded my-3">Register Now</button></div>
+      </div>
+    </div>
+    
+    <div>
+      <img src="Images/1.png" alt="">
+      <div class="w-125 h-50 mr-auto ">
+        <h4 class="text-2xl font-semibold">Junior Program</h4>
+        <small>Astronomers estimate that there are billions of worlds beyond our solar system. Astronomers estimate that there is roughly one exoplanet per star in our galaxy. Of course, some stars have many planets our own Sun has eight. And some stars have none.</small>
+        <div><button class="bg-red-600 text-white font-semibold p-2 rounded my-3">Register Now</button>
+      </div>
+    </div>
+
+    <div class="justify-items-center text-center mx-40">
+      <h1 class="text-2xl font-semibold my-3">Our New Products</h1>
+      <small class="">Astronomers estimate that there are billions of worlds beyond our solar system. Astronomers estimate that there is roughly one exoplanet per star in our galaxy.</small>
+    </div>
+
+    <section class="accordion flex">
+      <div>
+        <img src="Images/11.png" alt="">
+      </div>
+      <div class="align-middle">
+        <div class="collapse collapse-plus bg-base-200">
+          <input type="radio" name="my-accordion-3" checked="checked" /> 
+          <div class="collapse-title text-xl font-medium">
+            Click to open this one and close others
+          </div>
+          <div class="collapse-content"> 
+            <p>hello</p>
+          </div>
+        </div>
+        <div class="collapse collapse-plus bg-base-200">
+          <input type="radio" name="my-accordion-3" /> 
+          <div class="collapse-title text-xl font-medium">
+            Click to open this one and close others
+          </div>
+          <div class="collapse-content"> 
+            <p>hello</p>
+          </div>
+        </div>
+        <div class="collapse collapse-plus bg-base-200">
+          <input type="radio" name="my-accordion-3" /> 
+          <div class="collapse-title text-xl font-medium">
+            Click to open this one and close others
+          </div>
+          <div class="collapse-content"> 
+            <p>hello</p>
+          </div>
+        </div>
+        <div class="collapse collapse-plus bg-base-200">
+          <input type="radio" name="my-accordion-3" checked="checked" /> 
+          <div class="collapse-title text-xl font-medium">
+            Click to open this one and close others
+          </div>
+          <div class="collapse-content"> 
+            <p>hello</p>
+          </div>
+        </div>
+        <div class="collapse collapse-plus bg-base-200">
+          <input type="radio" name="my-accordion-3" /> 
+          <div class="collapse-title text-xl font-medium">
+            Click to open this one and close others
+          </div>
+          <div class="collapse-content"> 
+            <p>hello</p>
+          </div>
+        </div>
+        <div class="collapse collapse-plus bg-base-200">
+          <input type="radio" name="my-accordion-3" /> 
+          <div class="collapse-title text-xl font-medium">
+            Click to open this one and close others
+          </div>
+          <div class="collapse-content"> 
+            <p>hello</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="get-in-touch justify-items-center text-center mx-40 py-10">
+      <h1 class="text-2xl font-bold">Get In Touch</h1>
+      <small>If you get in touch with someone, you contact them by writing to them or phoning them. If you are, keep, or stay in touch with them, you write, phone, or visit each other regularly.</small>
+    </section>
+
+    
+    
+    <section class="address-form">
+
+      <div class="flex justify-between gap-3">
+        <div class="address w-1/4">
+          <div class="bg-lime-100 p-5">
+          <img src="Images/Group 1171275317.png" alt="">
+          <p class="text-slate-600 font-thin">Phone Number : </p>
+          <p class="text-black font-bold">(+62) 123-321-543</p>
+        </div>
+        <div class="bg-red-100 p-5">
+          <img src="Images/Group 1171275318.png" alt="">
+          <p class="text-slate-600 font-thin">Email : </p>
+          <p class="text-black font-bold">hockeys@support.com</p>
+        </div>
+        <div class="bg-orange-100 p-5">
+          <img src="Images/Group 1171275321.png" alt="">
+          <p class="text-slate-600 font-thin">Location: </p>
+          <p class="text-black font-bold">152/1 Mohakhali Wireless Gate</p>
+        </div>
+        </div>
+  
+  
+      <div class="form w-3/4">
+        <input type="text" placeholder="Enter your full name" class="input input-bordered w-1/2 max-w-xs mx-3 my-5" />
+        <input type="email" placeholder="Enter your mail" class="input input-bordered w-1/2 max-w-xs" />
+        <input type="text" placeholder="Enter your subject" class="input input-bordered w-1/2 max-w-xs mx-3 my-5" />
+        <input type="phone number" placeholder="Enter your number" class="input input-bordered w-1/2 max-w-xs" />
+        <textarea class="textarea textarea-bordered w-full mx-3" placeholder="Message"></textarea>
+       <div class=""> <button class="bg-red-600 text-white font-semibold p-3 rounded-xl w-full mx-3 my-5">Send Message</button></div>
+
+      </div>
+      </div>
+
+    </section>
+
+    <section class="social-icon text-center">
+      <div>
+        <h3 class="text-xl font-bold py-4">Social Media</h3>
+      </div>
+      <div class="flex justify-center space-x-4">
+        <img src="Images/logo-fb-simple 2.png" alt="">
+        <img src="Images/logo-twitter 2.png" alt="">
+        <img src="Images/3.png" alt="">
+        <img src="Images/4.png" alt="">
+      </div>
+
+      <footer class="flex w-auto justify-between py-12 px-4 bg-slate-300 my-5">
+        <div class="w-1/4">
+          <h3 class="text-slate-950 font-bold text-2xl">Get In Touch</h3>
+          <small class="text-right">Reading Hockey Club is a professional field hockey club based at Sonning Lane in the English town of Reading. </small>
+          <div class="flex">
+            <img src="Images/Frame.png" alt="" height="10px" width="15px">
+            <h5 class="py-2">hockeysupport@gamil.com</h5></div>
+          <div class="flex">
+            <img src="Images/Vector.png" alt="" height="10px" width="15px">
+            <h5 class=>0123456789</h5></div>
+           </div>
+
+        <div class="w-1/4">
+          <h3 class="text-xl font-semibold">Company</h3>
+          <h5 class="text-slate-600 font-thin text-sm py-2">About Us</h5>
+          <h5 class="text-slate-600 font-thin text-sm py-2">Leadership</h5>
+          <h5 class="text-slate-600 font-thin text-sm py-2">Carrier</h5>
+          <h5 class="text-slate-600 font-thin text-sm">News</h5>
+          <h5 class="text-slate-600 font-thin text-sm py-2">Notice</h5>
+        </div>
+        <div class="w-1/4"> <h3 class="text-xl font-semibold">Company</h3>
+          <h5 class="text-slate-600 font-thin text-sm py-2">About Us</h5>
+          <h5 class="text-slate-600 font-thin text-sm py-2">Leadership</h5>
+          <h5 class="text-slate-600 font-thin text-sm py-2">Carrier</h5>
+          <h5 class="text-slate-600 font-thin text-sm">News</h5>
+          <h5 class="text-slate-600 font-thin text-sm py-2">Notice</h5></div>
+        <div class="w-1/4"> <h3 class="text-xl font-semibold">Company</h3>
+          <h5 class="text-slate-600 font-thin text-sm py-2">About Us</h5>
+          <h5 class="text-slate-600 font-thin text-sm py-2">Leadership</h5>
+          <h5 class="text-slate-600 font-thin text-sm py-2">Carrier</h5>
+          <h5 class="text-slate-600 font-thin text-sm py-2">News</h5>
+          <h5 class="text-slate-600 font-thin text-sm py-2">Notice</h5></div>
+
+
+      </footer>
+
+    </section>
+</body>
+</html>
+
